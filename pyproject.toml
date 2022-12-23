@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pandas_plotting"
+version = "0.1.1"
+authors = [
+]
+description = "Utility for plotting pandas dataframes"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "matplotlib>=3.6.0",
+    "pandas>=1.4.3",
+]
+
+[project.urls]
+repository = "https://github.com/cchudant/pandas_plotting"
